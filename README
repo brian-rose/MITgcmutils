@@ -1,0 +1,11 @@
+********  MITGCMutils  **********
+
+Python package for analysis of MITgcm output
+
+This is a modified version of the package distributed with MITgcm
+which is available from
+http://mitgcm.org/viewvc/MITgcm/MITgcm/utils/python/MITgcmutils/
+
+This version contains some new code developed by 
+Brian Rose
+brose@albany.edu
