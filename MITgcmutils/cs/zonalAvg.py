@@ -28,7 +28,8 @@ def zonalAvg(fld,ny,csgrid):
     dims = np.shape(fld)
     
     #  numpy orders the dimensions in reverse from matlab, and counts from zero
-    nc = dims[2]  # size of cube face
+    #nc = dims[2]  
+    nc = np.size(yc,axis=0) # size of cube face
     nr = 1; nt = 1; nDim = 4
     if len(dims) > 2:
         if len(np.shape(hc)) is 3:
